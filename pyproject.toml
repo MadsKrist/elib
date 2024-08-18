@@ -1,4 +1,4 @@
-[build-system]
+[build-system] # hatch version minor; git add .; git commit -m "auto"; git push
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
@@ -22,9 +22,9 @@ classifiers = [
 dependencies = ["attrs", "icecream"]
 
 [project.urls]
-Documentation = "https://github.com/MadsKrist MadsKrist/elib#readme"
-Issues = "https://github.com/MadsKrist MadsKrist/elib/issues"
-Source = "https://github.com/MadsKrist MadsKrist/elib"
+Documentation = "https://github.com/MadsKrist/elib#readme"
+Issues = "https://github.com/MadsKrist/elib/issues"
+Source = "https://github.com/MadsKrist/elib"
 
 [tool.hatch.version]
 path = "src/elib/__about__.py"
